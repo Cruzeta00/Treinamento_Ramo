@@ -88,13 +88,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RSD_ATIV.b1f.cs">
-      <DependentUpon>RSD_ATIV.b1f</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="RSD_ATIV.b1f">
+    <Compile Include="RSD_APHR.b1f.cs">
+      <DependentUpon>RSD_APHR.b1f</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RSD_APHR.b1f">
       <FormCategory>UDOForm</FormCategory>
     </None>
   </ItemGroup>
